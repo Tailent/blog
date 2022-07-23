@@ -1,0 +1,207 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>如何免费创建个人博客？ | JYSG人生无限公司</title><meta name="keywords" content="个人博客"><meta name="author" content="太冷特"><meta name="copyright" content="太冷特"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="使用hexo框架和gitee代码管理工具，搭建静态个人博客。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何免费创建个人博客？">
+<meta property="og:url" content="http://com-jysg-never-end.gitee.io/2022/07/07/02-how-to-create-free-blog/index.html">
+<meta property="og:site_name" content="JYSG人生无限公司">
+<meta property="og:description" content="使用hexo框架和gitee代码管理工具，搭建静态个人博客。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://com-jysg-never-end.gitee.io/images/cover_image/image-20220723183357199.png">
+<meta property="article:published_time" content="2022-07-07T10:30:00.000Z">
+<meta property="article:modified_time" content="2022-07-23T11:36:47.479Z">
+<meta property="article:author" content="太冷特">
+<meta property="article:tag" content="个人博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://com-jysg-never-end.gitee.io/images/cover_image/image-20220723183357199.png"><link rel="shortcut icon" href="/blog/img/favicon.png"><link rel="canonical" href="http://com-jysg-never-end.gitee.io/2022/07/07/02-how-to-create-free-blog/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.27/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdnjs.cloudflare.com/ajax/libs/flickr-justified-gallery/2.1.2/fjGallery.min.js',
+      css: 'https://cdnjs.cloudflare.com/ajax/libs/flickr-justified-gallery/2.1.2/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '如何免费创建个人博客？',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-07-23 19:36:47'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://portrait.gitee.com/uploads/avatars/user/3761/11285102_com-jysg-never-end_1656916101.png!avatar200" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/blog/">JYSG人生无限公司</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">如何免费创建个人博客？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-07T10:30:00.000Z" title="发表于 2022-07-07 18:30:00">2022-07-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-23T11:36:47.479Z" title="更新于 2022-07-23 19:36:47">2022-07-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/">攻略心得</a></span></div><div class="meta-secondline"></div></div></div><article class="post-content" id="article-container"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近想搭建一个博客，一开始本来想用老牌的WordPress，但是想了一下以前搭建这玩意儿的时候是要用到数据库的，这样就得要自己搞个服务器和域名。看了一下现在的云服务都是几大百，作为一个老白嫖党，就去搜了一下有没有免费的，结果果然就让我搜到了。</p>
+<p>就是这个HEXO框架，是现在比较流行的静态博客生成框架。加上Gitee可以免费申请pages服务，所以就可以基于此搭建一个有域名的静态博客了。</p>
+<p>先说一下博客网站的基本结构，HEXO是生成博客样式的框架，基于Node.js，所以需要安装nodejs环境。然后Gitee是国内的开源git平台，优势主要是比GitHub网速快，同样需要安装git环境。</p>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723182637771.png" alt="image-20220723182637771"></p>
+<h1 id="一、安装Git"><a href="#一、安装Git" class="headerlink" title="一、安装Git"></a>一、安装Git</h1><p><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">廖雪峰大佬的Git教程</a>，从入门到入土应该够了。</p>
+<h1 id="二、安装Nodejs"><a href="#二、安装Nodejs" class="headerlink" title="二、安装Nodejs"></a>二、安装Nodejs</h1><p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/download/current/">Nodejs下载</a>，一个JavaScript运行环境。博客项目hexo就是基于它才能运行。</p>
+<h1 id="三、安装hexo-amp-创建-amp-发布"><a href="#三、安装hexo-amp-创建-amp-发布" class="headerlink" title="三、安装hexo&amp;创建&amp;发布"></a>三、安装hexo&amp;创建&amp;发布</h1><p><a target="_blank" rel="noopener" href="https://hexo.io/docs/">hexo</a>官方文档，安装hexo脚手架</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>创建你的本地项目，随便找一个路径，如E盘的hexoblog文件夹</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init E:/hexoblog</span><br><span class="line"><span class="built_in">cd</span> hexoblog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p>项目创建成功后，新建第一个博客，你好世界。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post hello-world</span><br></pre></td></tr></table></figure>
+
+<p>编译项目</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>启动项目，默认本地浏览器localhost:4000访问</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p>默认的样式长这样</p>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723185934722.png" alt="image-20220723185934722"></p>
+<p>将项目上传到Gitee仓库，注意本地的那些yaml配置是不会传到git上的，git上只有用于部署访问的静态文件。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723190614626.png" alt="image-20220723190614626"></p>
+<h1 id="四、使用Gitee的Pages功能部署"><a href="#四、使用Gitee的Pages功能部署" class="headerlink" title="四、使用Gitee的Pages功能部署"></a>四、使用Gitee的Pages功能部署</h1><p>使用Gitee Pages功能部署项目，注意这个功能需要Gitee实名认证，可能要等个一两天</p>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723190834155.png" alt="image-20220723190834155"></p>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723190912401.png" alt="image-20220723190912401"></p>
+<p>然后就可以访问了</p>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723191123301.png" alt="image-20220723191123301"></p>
+<h1 id="五、使用主题"><a href="#五、使用主题" class="headerlink" title="五、使用主题"></a>五、使用主题</h1><p>hexo可以使用各种样式炫酷的主题，在<a target="_blank" rel="noopener" href="https://hexo.io/themes/">官方网站</a>可以看到</p>
+<p>我使用的是<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/21cfbf15/">Butterfly主题</a>，可以去这个网站参考如何配置</p>
+<h1 id="六、怎么传图片"><a href="#六、怎么传图片" class="headerlink" title="六、怎么传图片"></a>六、怎么传图片</h1><ul>
+<li><p>第一种：使用图片链接直接链接到文章中，最简单，推荐如果不想被坑就用这个。只是如果原链接失效了，图就挂了。</p>
+</li>
+<li><p>第二种：使用图床，本质和第一种一样，只是图床的图是你自己手工上传的，然后也用链接引进来，图床服务器要收费，免费的一般限时限量。而且如果万一服务商跑路了，图还是挂了。</p>
+</li>
+<li><p>第三种：直接把图片放在本地的项目里，随着发布提交到git仓库，然后部署到服务器访问。理论上除非Gitee凉了，不然图肯定在（就算凉了你本地还有一份副本）</p>
+<ul>
+<li><p>这里主要说说第三种遇到的史前巨坑，hexo的本地图片插件有bug，无法同时做到本地Typora查看和部署后正常展示。其原因是因为插件没有正确识别后去重图片路径，导致路径始终重复。最后我改了插件的代码才解决了。</p>
+</li>
+<li><p>插件名字：<img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723182505237.png" alt="image-20220723182505237"></p>
+</li>
+<li><p>要手动改的代码如下：</p>
+</li>
+</ul>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723182446483.png" alt="image-20220723182446483"></p>
+<ul>
+<li><p>修改之后能正常渲染图片的路径了：</p>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723183013764.png" alt="image-20220723183013764"></p>
+<p><img src="/blog/2022/07/07/02-how-to-create-free-blog/image-20220723183038122.png" alt="image-20220723183038122"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>写完这个攻略，我发现漏了很多，比如Git本地生成秘钥配置到Gitee才能访问远程git仓库，比如怎么使用Typora编写博客的md文件，hexo的一些基本配置和怎么安装主题等等……</p>
+<p>其实网上也有很多类似的教程，搜Hexo+Gitee搭建个人博客就能找到了。</p>
+<p>所以如果对于Git、JavaScript、Markdown都不太了解也没兴趣的朋友，我还是建议考虑b站、简书、语雀之类的吧，简单好用。</p>
+<p>总之是一次兴趣使然的瞎折腾，以后咱尽量能带来一些更有趣的内容。</p>
+<p>感谢阅读。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://com-jysg-never-end.gitee.io">太冷特</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://com-jysg-never-end.gitee.io/2022/07/07/02-how-to-create-free-blog/">http://com-jysg-never-end.gitee.io/2022/07/07/02-how-to-create-free-blog/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://com-jysg-never-end.gitee.io" target="_blank">JYSG人生无限公司</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">个人博客</a></div><div class="post_share"><div class="social-share" data-image="/blog/images/cover_image/image-20220723183357199.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/blog/2022/07/06/01-hello-world/"><img class="next-cover" src="/blog/images/cover_image/image-20220723184546845.png" onerror="onerror=null;src='/blog/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">你好，世界</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/blog/2022/07/06/01-hello-world/" title="你好，世界"><img class="cover" src="/blog/images/cover_image/image-20220723184546845.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-07-06</div><div class="title">你好，世界</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://portrait.gitee.com/uploads/avatars/user/3761/11285102_com-jysg-never-end_1656916101.png!avatar200" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">太冷特</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://gitee.com/com-jysg-never-end"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://portrait.gitee.com/uploads/avatars/user/3761/11285102_com-jysg-never-end_1656916101.png!avatar200" target="_blank" title="太冷特"><i class="fab fa-gitee"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">来这里开心就好了</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%AE%89%E8%A3%85Git"><span class="toc-text">一、安装Git</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AE%89%E8%A3%85Nodejs"><span class="toc-text">二、安装Nodejs</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%AE%89%E8%A3%85hexo-amp-%E5%88%9B%E5%BB%BA-amp-%E5%8F%91%E5%B8%83"><span class="toc-text">三、安装hexo&amp;创建&amp;发布</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E4%BD%BF%E7%94%A8Gitee%E7%9A%84Pages%E5%8A%9F%E8%83%BD%E9%83%A8%E7%BD%B2"><span class="toc-text">四、使用Gitee的Pages功能部署</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E4%BD%BF%E7%94%A8%E4%B8%BB%E9%A2%98"><span class="toc-text">五、使用主题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E6%80%8E%E4%B9%88%E4%BC%A0%E5%9B%BE%E7%89%87"><span class="toc-text">六、怎么传图片</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD"><span class="toc-text">结语</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/blog/2022/07/07/02-how-to-create-free-blog/" title="如何免费创建个人博客？"><img src="/blog/images/cover_image/image-20220723183357199.png" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="如何免费创建个人博客？"/></a><div class="content"><a class="title" href="/blog/2022/07/07/02-how-to-create-free-blog/" title="如何免费创建个人博客？">如何免费创建个人博客？</a><time datetime="2022-07-07T10:30:00.000Z" title="发表于 2022-07-07 18:30:00">2022-07-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2022/07/06/01-hello-world/" title="你好，世界"><img src="/blog/images/cover_image/image-20220723184546845.png" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="你好，世界"/></a><div class="content"><a class="title" href="/blog/2022/07/06/01-hello-world/" title="你好，世界">你好，世界</a><time datetime="2022-07-06T11:00:00.000Z" title="发表于 2022-07-06 19:00:00">2022-07-06</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By 太冷特</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-butterfly/4.3.1/js/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-butterfly/4.3.1/js/main.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-butterfly/4.3.1/js/tw_cn.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.27/fancybox.umd.min.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.3/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script></div></body></html>
