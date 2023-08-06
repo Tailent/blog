@@ -1,0 +1,169 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>90%AI——用StableDiffusion+PS生成二游小姐姐立绘 | JYSG</title><meta name="keywords" content="AI"><meta name="author" content="太冷特"><meta name="copyright" content="太冷特"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="随着stablediffusion的不断发展，ai绘画的能力也越来越强，定制效果也越来越好。在我（不会画画）自己瞎研究了一段时间后，尝试生成了一些类似动漫游角色立绘的全身图">
+<meta property="og:type" content="article">
+<meta property="og:title" content="90%AI——用StableDiffusion+PS生成二游小姐姐立绘">
+<meta property="og:url" content="http://com-jysg-never-end.gitee.io/2023/08/06/09-stable-diffusion-draw-anime-girl/index.html">
+<meta property="og:site_name" content="JYSG">
+<meta property="og:description" content="随着stablediffusion的不断发展，ai绘画的能力也越来越强，定制效果也越来越好。在我（不会画画）自己瞎研究了一段时间后，尝试生成了一些类似动漫游角色立绘的全身图">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://com-jysg-never-end.gitee.io/images/cover_image/image-20230834235855.png">
+<meta property="article:published_time" content="2023-08-06T12:35:51.000Z">
+<meta property="article:modified_time" content="2023-08-06T12:40:55.463Z">
+<meta property="article:author" content="太冷特">
+<meta property="article:tag" content="AI">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://com-jysg-never-end.gitee.io/images/cover_image/image-20230834235855.png"><link rel="shortcut icon" href="/blog/img/favicon.png"><link rel="canonical" href="http://com-jysg-never-end.gitee.io/2023/08/06/09-stable-diffusion-draw-anime-girl/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.27/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdnjs.cloudflare.com/ajax/libs/flickr-justified-gallery/2.1.2/fjGallery.min.js',
+      css: 'https://cdnjs.cloudflare.com/ajax/libs/flickr-justified-gallery/2.1.2/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '90%AI——用StableDiffusion+PS生成二游小姐姐立绘',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-08-06 20:40:55'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/blog/images/ssocialAvatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/blog/images/cover_image/image-20230834235855.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/blog/">JYSG</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">90%AI——用StableDiffusion+PS生成二游小姐姐立绘</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-08-06T12:35:51.000Z" title="发表于 2023-08-06 20:35:51">2023-08-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-08-06T12:40:55.463Z" title="更新于 2023-08-06 20:40:55">2023-08-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/">攻略心得</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>随着stablediffusion的不断发展，ai绘画的能力也越来越强，定制效果也越来越好。在我（不会画画）自己瞎研究了一段时间后，尝试生成了一些类似动漫游角色立绘的全身图。例子如下（原图可见动态）：</p>
+<p><img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691317698460-6d2f7b86-a870-4111-8bfa-001b021a0006.png" alt="img"></p>
+<p><img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691317721720-64d19ee4-9b77-46dc-af17-f8dccfc56ea4.png" alt="img"></p>
+<p><img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691317732712-2c9e03c5-7d44-40c8-b946-ec96783765ea.png" alt="img"></p>
+<p>可以看到人物的姿势服装之类的没有多少崩坏，背景也勉强能贴合。</p>
+<p>当然和真正专业的游戏角色立绘还是没得比，我只是提供一个思路，主要适用于不太会绘画但会一些基础ps操作的朋友（也怕自己过段时间忘了是咋操作的）。</p>
+<h1 id="一-生成思路"><a href="#一-生成思路" class="headerlink" title="一 生成思路"></a>一 生成思路</h1><ol>
+<li>使用sd的整合包web-ui（b站大佬秋叶整合包），同时安装需要的git、Python、cuda等环境</li>
+<li>下载需要的model、vae、embeddings、lora</li>
+<li>以我最近生成的图这个红发海盗为例，选择文生图，核心lora模型是这个海盗主题<a target="_blank" rel="noopener" href="https://www.liblibai.com/modelinfo/8cf003b9901e5d179cf76ddc8e10f83c">Not Horny Pirate</a>，model和vae随意</li>
+<li>选择controlnet，导入一个人物姿势<img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691319135643-f9cab62a-808d-4b77-a386-0dbc8467d012.png" alt="img"></li>
+<li>选择768*768的分辨率、1.5倍的高清修复（小水管拉高了跑得太慢），迭代步数选35~40步，采样方法选DPM++ 2M SDE Karras，勾选启用Tiled Diffusion（防止最后渲染vae时爆显存），其余参数随意<img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691320135617-29add2da-3c74-4411-90be-f3428b92fe94.png" alt="img"></li>
+<li>跑个5~10张，选择一张画面大致满意的，导入ps作为底图</li>
+<li>挑选其他图里面满意的元素导入进来，用橡皮擦替换掉底图对应的部分，然后用鼠标（手绘板）把画面明显有bug的地方手动涂改掉（比如画错的手、衣服、背景等），不用涂得太细致，让ai能识别对应的颜色就行       <img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691320228940-433885b7-979c-4c39-b3a0-4cccc8c83e38.png" alt="img"></li>
+<li>把手动改完的图指定分辨率（768*768）导出，进入图生图，其他参数不变，重绘幅度选0.5以下，重绘尺寸还是1.5倍<img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691319987196-93caa806-34f8-489e-a3dc-ab124496a9e3.png" alt="img"></li>
+<li>在跑个5~10张，选择一张画面大致满意的，导入ps作为底图，对于不满意想替换的部分再按前面那个流程操作一遍</li>
+<li>高清化各个地方的细节，其实就是因为我的显卡显存太小没法一次性跑，就可以把想要局部重绘的地方单独裁剪出来，放入图生图里跑，比如：<img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691320661405-31473f56-6a3d-4ca8-b5df-2483d0540fd8.png" alt="img"></li>
+<li>按这个思路把各个想要重绘的地方画完后，在ps里重新拼合，如果还有不满意的地方就再循环一次前面的方法替换</li>
+<li>导出画面（选择一个设备能跑的极限分辨率），重绘幅度选0.2~0.3，在图生图里勾上启用 Tiled Diffusion，选择2倍放大，放大算法选R-ESRGAN 4x+，其他不变，跑一次（这一次会跑很久，至少几十分钟）<img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691321072605-62a5ce01-d48b-475a-9333-94f1e0f88ca7.png" alt="img"></li>
+<li>成图拥有至少2k以上的分辨率，如果还想继续放大可以导入后期处理里继续放大<img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691321246299-6594ce1e-20e6-48ee-a830-9c2ffdad9b0a.png" alt="img"></li>
+<li>还可以把完成的图导回ps在调调饱和度、滤镜等等</li>
+<li>我还做了一个微调的wallpaper-engine版本，我把这种AI图称为90%AI：），一个由90%AI生成+10%人工干预的图 <a target="_blank" rel="noopener" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3012225367">Steam链接</a><img src="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/1691323797270-ab0a488f-19ed-4bde-baa2-0d009ff29eca.png" alt="img"></li>
+</ol>
+<h1 id="二-名词解释"><a href="#二-名词解释" class="headerlink" title="二 名词解释"></a>二 名词解释</h1><ul>
+<li>什么是Git：一个代码托管工具，要安装了git才能更新web-ui的新功能 <a target="_blank" rel="noopener" href="https://www.git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F">Git 是什么</a></li>
+<li>什么是stable diffusion：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/627133524">深入浅出讲解Stable Diffusion原理，新手也能看明白</a></li>
+<li>什么是python：stable diffusion的代码通过python语言实现，可以理解为玩游戏前要装的C++、.Net语言库</li>
+<li>什么是cuda：显卡厂商NVIDIA推出的通用并行计算架构，可以理解为跑ai必要的驱动之一，基本上只有用nv的显卡才能跑ai图（据说a卡和mac也可以没试过、速度应该很慢）</li>
+<li>什么是web-ui整合包：b站大佬秋叶制作的整合包，用这个整合包就能在浏览器中用图形化的方式操作ai跑图 [【AI绘画】Stable Diffusion整合包v4.2发布](【【AI绘画】Stable Diffusion整合包v4.2发布！全新加速 解压即用 防爆显存 三分钟入门AI绘画 ☆可更新 ☆训练 ☆汉化】 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1iM4y1y7oA/?share_source=copy_web&amp;vd_source=9e3a516c5524f39a5d902ac282472139">https://www.bilibili.com/video/BV1iM4y1y7oA/?share_source=copy_web&amp;vd_source=9e3a516c5524f39a5d902ac282472139</a>)</li>
+<li>什么是model、controlNet、lora：这些sd内部的名词太多了，详情可参考b站大佬的免费课程 [B站第一套系统的AI绘画课！零基础学会Stable Diffusion](【B站第一套系统的AI绘画课！零基础学会Stable Diffusion，这绝对是你看过的最容易上手的AI绘画教程 | SD WebUI 保姆级攻略】 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1As4y127HW/?share_source=copy_web&amp;vd_source=9e3a516c5524f39a5d902ac282472139">https://www.bilibili.com/video/BV1As4y127HW/?share_source=copy_web&amp;vd_source=9e3a516c5524f39a5d902ac282472139</a>)</li>
+<li>什么是ps：全名Photoshop，是由Adobe公司开发的图像处理软件，功能强大也很复杂，如果不是画图我都用光影魔术手：）</li>
+</ul>
+<h1 id="三-学习与探索"><a href="#三-学习与探索" class="headerlink" title="三 学习与探索"></a>三 学习与探索</h1><ul>
+<li>哪儿有stable diffusion中文教程：画小姐姐相关的b站能搜到很多视频，入门推荐 [B站第一套系统的AI绘画课！零基础学会Stable Diffusion](【B站第一套系统的AI绘画课！零基础学会Stable Diffusion，这绝对是你看过的最容易上手的AI绘画教程 | SD WebUI 保姆级攻略】 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1As4y127HW/?share_source=copy_web&amp;vd_source=9e3a516c5524f39a5d902ac282472139">https://www.bilibili.com/video/BV1As4y127HW/?share_source=copy_web&amp;vd_source=9e3a516c5524f39a5d902ac282472139</a>) 建筑&#x2F;景观&#x2F;规划类 <a target="_blank" rel="noopener" href="http://yuanjineng.cn/">AI 元技能</a></li>
+<li>哪儿有模型、LORA等资源：<a target="_blank" rel="noopener" href="https://www.liblibai.com/">哩布哩布AI</a> （直达），<a target="_blank" rel="noopener" href="https://civitai.com/">Civitai</a>（需要魔法，记得屏蔽辣眼的NSFW内容）</li>
+<li>哪儿有词汇库：<a target="_blank" rel="noopener" href="https://tags.novelai.dev/">Danbooru 标签超市</a> <a target="_blank" rel="noopener" href="https://aitag.top/">魔咒百科词典</a></li>
+</ul>
+<h1 id="四-展望未来"><a href="#四-展望未来" class="headerlink" title="四 展望未来"></a>四 展望未来</h1><p>AI画图我去年就关注了，当时还是用Google提供的在线生图平台disco diffusion，研究了一大堆参数。但是实际效果并不好，也没有什么定制化的能力，后来sd刚刚出来的时候，也是跑的图都是随机的，实际效果一般，也就没怎么研究了。</p>
+<p>直到lora和controlnet的出现，它让ai画图有了定制化的能力，玩家可以定制化的去生成自己想要的图，至此stable diffusion的潜力才得以完全体现，相关的资源也越来越多。（感谢这些热衷研究与分享的大佬们）</p>
+<p>我发现自己的构图水平还是太差，当AI能按照你的想法去帮你完成作业时，你的指挥水平就变得尤其重要。对于一张图如何构图、透视、光影等等，要想跑出好图还得有大局观才行：）</p>
+<p>今年以来AI生态大爆发，ai画图只是其中的一个缩影，未来的工作生产中必然会越来越多的和AI打交道。话说我看公司都有技术大佬在悄悄研究AI大语言模型的底层代码和算法了。或许我们正在亲历一个时代的变革，未来的浪潮又会将我们带去何方呢？</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://com-jysg-never-end.gitee.io">太冷特</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://com-jysg-never-end.gitee.io/2023/08/06/09-stable-diffusion-draw-anime-girl/">http://com-jysg-never-end.gitee.io/2023/08/06/09-stable-diffusion-draw-anime-girl/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://com-jysg-never-end.gitee.io" target="_blank">JYSG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/AI/">AI</a></div><div class="post_share"><div class="social-share" data-image="/blog/images/cover_image/image-20230834235855.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/blog/2023/03/12/08-bafanglvren-zhuxianjuqing/"><img class="next-cover" src="/blog/images/cover_image/image-20230312162217.jpg" onerror="onerror=null;src='/blog/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/blog/images/ssocialAvatar.jpg" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">太冷特</div><div class="author-info__description">JYSG Never End</div></div><div class="card-info-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://space.bilibili.com/3493126004017170"><i></i><span>关注 bilibili</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://portrait.gitee.com/uploads/avatars/user/3761/11285102_com-jysg-never-end_1656916101.png!avatar200" target="_blank" title="太冷特"><i class="fab fa-gitee"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><a class="button--animated">你发现了JYSG的秘密小屋:）</a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80-%E7%94%9F%E6%88%90%E6%80%9D%E8%B7%AF"><span class="toc-text">一 生成思路</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C-%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A"><span class="toc-text">二 名词解释</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89-%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%8E%A2%E7%B4%A2"><span class="toc-text">三 学习与探索</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B-%E5%B1%95%E6%9C%9B%E6%9C%AA%E6%9D%A5"><span class="toc-text">四 展望未来</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/" title="90%AI——用StableDiffusion+PS生成二游小姐姐立绘"><img src="/blog/images/cover_image/image-20230834235855.png" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="90%AI——用StableDiffusion+PS生成二游小姐姐立绘"/></a><div class="content"><a class="title" href="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/" title="90%AI——用StableDiffusion+PS生成二游小姐姐立绘">90%AI——用StableDiffusion+PS生成二游小姐姐立绘</a><time datetime="2023-08-06T12:35:51.000Z" title="发表于 2023-08-06 20:35:51">2023-08-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/03/12/08-bafanglvren-zhuxianjuqing/" title="【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A"><img src="/blog/images/cover_image/image-20230312162217.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A"/></a><div class="content"><a class="title" href="/blog/2023/03/12/08-bafanglvren-zhuxianjuqing/" title="【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A">【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A</a><time datetime="2023-03-12T08:22:17.000Z" title="发表于 2023-03-12 16:22:17">2023-03-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/01/27/07-shenzhitianping-xia/" title="我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）"><img src="/blog/images/cover_image/image-20230127001705.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）"/></a><div class="content"><a class="title" href="/blog/2023/01/27/07-shenzhitianping-xia/" title="我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）">我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）</a><time datetime="2023-01-26T16:17:05.000Z" title="发表于 2023-01-27 00:17:05">2023-01-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/01/26/06-shenzhitianping-shang/" title="我为了一只鸟不救老婆导致世界毁灭了——《神之天平》剧情图文赏析（上）"><img src="/blog/images/cover_image/image-20230126235838.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="我为了一只鸟不救老婆导致世界毁灭了——《神之天平》剧情图文赏析（上）"/></a><div class="content"><a class="title" href="/blog/2023/01/26/06-shenzhitianping-shang/" title="我为了一只鸟不救老婆导致世界毁灭了——《神之天平》剧情图文赏析（上）">我为了一只鸟不救老婆导致世界毁灭了——《神之天平》剧情图文赏析（上）</a><time datetime="2023-01-26T15:58:38.000Z" title="发表于 2023-01-26 23:58:38">2023-01-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2022/10/02/05-plz-choose-your-summer-memory/" title="请挑选你对2022的夏天回忆——《夏日重现》"><img src="/blog/images/cover_image/image-20221002203115489.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="请挑选你对2022的夏天回忆——《夏日重现》"/></a><div class="content"><a class="title" href="/blog/2022/10/02/05-plz-choose-your-summer-memory/" title="请挑选你对2022的夏天回忆——《夏日重现》">请挑选你对2022的夏天回忆——《夏日重现》</a><time datetime="2022-10-02T12:30:00.000Z" title="发表于 2022-10-02 20:30:00">2022-10-02</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/blog/images/cover_image/image-20230834235855.png')"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By 太冷特</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-butterfly/4.3.1/js/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-butterfly/4.3.1/js/main.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.27/fancybox.umd.min.js"></script><div class="js-pjax"></div></div></body></html>
