@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>《黑暗之魂1》 游戏流程设计回顾 | JYSG</title><meta name="keywords" content="游戏"><meta name="author" content="太冷特"><meta name="copyright" content="太冷特"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="在基本探索完整个不死镇后，我感觉离最初的传火祭祀场越来越远。但是通过在不死镇教区尽头的一个不起眼的电梯，我却鬼使神差的回到了传火祭祀场，这件事是玩黑暗之魂1的一个历史时刻。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《黑暗之魂1》 游戏流程设计回顾">
+<meta property="og:url" content="http://com-jysg-never-end.gitee.io/2023/12/31/11-dark-souls-game-design-retro/index.html">
+<meta property="og:site_name" content="JYSG">
+<meta property="og:description" content="在基本探索完整个不死镇后，我感觉离最初的传火祭祀场越来越远。但是通过在不死镇教区尽头的一个不起眼的电梯，我却鬼使神差的回到了传火祭祀场，这件事是玩黑暗之魂1的一个历史时刻。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://com-jysg-never-end.gitee.io/images/cover_image/image-20231231784321.png">
+<meta property="article:published_time" content="2023-12-31T04:40:01.000Z">
+<meta property="article:modified_time" content="2023-12-31T05:27:40.153Z">
+<meta property="article:author" content="太冷特">
+<meta property="article:tag" content="游戏">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://com-jysg-never-end.gitee.io/images/cover_image/image-20231231784321.png"><link rel="shortcut icon" href="/blog/img/favicon.png"><link rel="canonical" href="http://com-jysg-never-end.gitee.io/2023/12/31/11-dark-souls-game-design-retro/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.27/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdnjs.cloudflare.com/ajax/libs/flickr-justified-gallery/2.1.2/fjGallery.min.js',
+      css: 'https://cdnjs.cloudflare.com/ajax/libs/flickr-justified-gallery/2.1.2/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '《黑暗之魂1》 游戏流程设计回顾',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-12-31 13:27:40'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/blog/images/ssocialAvatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/blog/images/cover_image/image-20231231784321.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/blog/">JYSG</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">《黑暗之魂1》 游戏流程设计回顾</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-12-31T04:40:01.000Z" title="发表于 2023-12-31 12:40:01">2023-12-31</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-12-31T05:27:40.153Z" title="更新于 2023-12-31 13:27:40">2023-12-31</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E9%AD%82%E7%B3%BB%E5%88%97/">魂系列</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h3><p>在体验了《黑暗之魂3》的漫长征途、《只狼》的烽火连天、《艾尔登法环》的开放世界，以及《血源》的怪奇物语后，我决定踏上这一系列魂之路的起点——《黑暗之魂1》的罗德兰大陆。同时，我也希望尝试深入探究这个系列游戏的魅力所在，它究竟蕴含着何种魔力，能在众多游戏中给予玩家如此独特的体验。</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/v2-c05a2a0ff9b64bf17fb4f311a171cb42_r.jpg" alt="v2-c05a2a0ff9b64bf17fb4f311a171cb42_r"></p>
+<h3 id="游戏的主线编排"><a href="#游戏的主线编排" class="headerlink" title="游戏的主线编排"></a><strong>游戏的主线编排</strong></h3><p>如果黑暗之魂1是一个线性关卡设计游戏，那么它的游戏流程攻略区域大概长这样：</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231223173649619.png" alt="image-20231223173649619"></p>
+<p>而事实上游戏的部分流程是非线性的，玩家有自由的选择去哪里，可以跳过一些boss，或者去到一些地方获得好的道具。</p>
+<p>黑暗之魂1的神奇之处就在于，它神奇的地图设计，玩家在实际游玩的时候，可能选择的路线长这样：</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231223173708905.png" alt="image-20231223173708905"></p>
+<p>通过简单的梳理，黑暗之魂1的游戏流程基本上可以分为5幕：</p>
+<ul>
+<li>第一幕【线性】北方不死院，玩家学习游戏基本操作，并击败考验新人的第一个boss不死院恶魔。</li>
+<li>第二幕【非线性】从传火祭祀场到敲响两口钟，一口钟由不死镇教区的石像鬼守护，另一口钟则需要玩家深入地底，击败混沌魔女库拉格才能敲响。</li>
+<li>第三幕【线性】进入塞恩古城，然后前往王城，击败斯摩和翁斯坦并获得王器。</li>
+<li>第四幕【非线性】在4个新的区域解锁了4个强大的王需要玩家前往攻略，分别是公爵书库的白龙希斯、废都伊扎里斯的温床、小隆德遗迹深渊中的四王、巨人墓地的墓王尼特。玩家打败4个boss获得四个王魂。</li>
+<li>第五幕【线性】挑战最终boss乌薪王葛温。</li>
+</ul>
+<p>以上是来自GMTK关于黑暗之魂1游戏流程的整理，我认为比较到位，这里把他画的流程图汉化了一下。以下是我在游玩游戏具体流程中时，想到的各个区域的特点。</p>
+<h3 id="不死院-amp-传火祭祀场"><a href="#不死院-amp-传火祭祀场" class="headerlink" title="不死院&amp;传火祭祀场"></a><strong>不死院&amp;传火祭祀场</strong></h3><p>不死院作为新手村其实没什么好说的，它与主要地图并不相连，后续也需要非常隐秘的方式才能回来。FS社接受采访的时候也说北方不死院作为最开始的区域，其实是最后才去制作的（<del>其实是盘点到最后时我把一开始的新手村忘了</del>）。到达传火祭祀场后，主角一开始可以去的地方有3个：地下墓地、小隆德遗迹、城外不死镇。前2个地方玩家遇到的小怪特别强力，就是提示玩家，只有不死镇的难度是符合玩家的初始强度的。</p>
+<h3 id="城外不死镇"><a href="#城外不死镇" class="headerlink" title="城外不死镇"></a><strong>城外不死镇</strong></h3><p>探索城外不死镇，算是游戏教学玩家这个游戏、世界的基本规则。如：</p>
+<ul>
+<li>游戏只有一条大路，但是有多条支线小路，小路可以找到一些有用的物品。</li>
+<li>每攻略一段地区，就会有新的篝火（补给点）出现。篝火可以补给但是会刷新敌人，并且篝火之间并不能传送（在前期）。</li>
+<li>游戏货币和经验都是玩家手里的魂，第一次死亡会将所有魂丢在死亡的地点，如果在捡回自己的魂前再次死亡，则会永久性失去魂。</li>
+</ul>
+<h3 id="不死镇教区回到传火祭祀场的电梯捷径"><a href="#不死镇教区回到传火祭祀场的电梯捷径" class="headerlink" title="不死镇教区回到传火祭祀场的电梯捷径"></a><strong>不死镇教区回到传火祭祀场的电梯捷径</strong></h3><p>在基本探索完整个不死镇后，玩家会感觉离最初的传火祭祀场越来越远。但是通过在不死镇教区尽头的一个不起眼的电梯，玩家却鬼使神差的回到了传火祭祀场。这件事是黑暗之魂1的一个历史时刻，它告诉玩家这个游戏的世界是可能相连的。它让玩家发出“卧槽”的惊呼，这是FS社制作游戏一直想要达到的目标。</p>
+<p>看看不死镇的3D地图，玩家就会知道为什么绕了一圈，最后居然会回到传火祭祀场。（这个黑魂1的在线3D地图查看网站<a target="_blank" rel="noopener" href="https://noclip.website/#dksiv/dks1">noclip.website</a>，可以在github上下到源码，可能需要kexue上网）</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/QQ%E6%88%AA%E5%9B%BE20231224154805.png" alt="QQ截图20231224154805"></p>
+<h3 id="敲响第一口钟后的选择"><a href="#敲响第一口钟后的选择" class="headerlink" title="敲响第一口钟后的选择"></a><strong>敲响第一口钟后的选择</strong></h3><p>敲响第一口钟后，玩家会感觉到自己变强了，此时能去的地方除了一开始连着传火祭祀场的地下墓地和小隆德，又多了森林和庭院，还可以从森林绕到飞龙谷去病村后门，或者是攒够2w魂去开森林的门打希夫。游戏给玩家提供了许多种线路选择，当玩家遇到打不过的敌人或者区域的时候，可以停下来思考自己现在最适合去的区域是哪一个，等什么时候变强了，再回头来攻略曾经打不过的地方。</p>
+<h3 id="不死镇下层-amp-底层"><a href="#不死镇下层-amp-底层" class="headerlink" title="不死镇下层&amp;底层"></a><strong>不死镇下层&amp;底层</strong></h3><p>在不死镇底层的下水道，玩家会遇到一个很折磨人的点，就是一旦中了咒蛙的诅咒死亡，就会被扣掉一半的最大生命值，必须找到解咒石才能解除。但是如果玩家不细心思考自己一路上探索的区域、遇到的NPC和检视每个物品，很难发现解咒石要在下水道捷径的商人处才能购买。顶着扣一半最大生命值的debuff非常折磨，十分影响玩家的正常探索和攻略boss。这算是黑暗之魂的一个明显刻意的恶意（因为在魂2和魂3中咒死的惩罚不再如此重）。</p>
+<h3 id="病村-amp-混沌魔女库拉格"><a href="#病村-amp-混沌魔女库拉格" class="headerlink" title="病村&amp;混沌魔女库拉格"></a><strong>病村&amp;混沌魔女库拉格</strong></h3><p>从病村下到地面，玩家会面对一整个会缓速和中毒的沼泽，这种顶着无限持续的中毒状态，则是黑暗之魂刻意设计的又一个折磨玩家的恶意。</p>
+<p>当玩家终于顶着一身debuff和折磨打败了库拉格，见到了善良的白蜘蛛并敲响第二口钟时，前面游戏所营造的巨大折磨，将会反馈给玩家充足的成就感。玩家可以继续探索白蜘蛛下方的混沌废都，但是玩家会被高难度迅速劝退（同时记住这个地方）。</p>
+<p>游戏此处的衔接做得非常好，敲响第二口钟后，游戏就会提示玩家塞恩古城的大门打开了，并且玩家在回到传火祭祀场的时候，会见到新的主线NPC大蛇，大蛇会告诉玩家游戏的主线就是前往塞恩古城，并登上王城，找到太阳公主取得王器。</p>
+<h3 id="塞恩古城"><a href="#塞恩古城" class="headerlink" title="塞恩古城"></a><strong>塞恩古城</strong></h3><p>塞恩古城是黑暗之魂对玩家的又一大能力历练与心态折磨，各式的机关陷阱与险峻的道路，不时不在提醒玩家，要缓慢并全神贯注的探索。比如有一个戒指需要玩家用巧妙的方法将落下的圆石把坑填平才能过去拿到。又比如有一个电梯的平台上全是血迹，玩家如果坐上去电梯就会升到满是尖刺的地方被扎。</p>
+<p>同时在这里出现了第一个宝箱怪，这又是一个非常刻意的恶意，但却是恶意中非常有创意的一个。它是初见杀，提醒玩家得更加小心，它同时又在提醒玩家，这是一个充满恶意的世界，对于你未曾踏足过的新区域，你必须小心谨慎，步步为营。</p>
+<p>所以当玩家耗费心神精力终于登上楼顶，并击败钢铁巨偶的时候，玩家的成就感又一次得到了回应。</p>
+<h3 id="王城"><a href="#王城" class="headerlink" title="王城"></a><strong>王城</strong></h3><p>在刚刚传送到王城的时候，游戏会有一小段CG来展示王城的壮观和伟大，这样的景色无疑的对坚持玩到这里的玩家最大的奖励。因为游戏前期的基调一直是在破败萧条、脏乱不堪的中下层游玩。而登上王城，却发现上层的世界是如此干净和庄严。这种越往下层就越肮脏、黑暗、混乱，越往上则光明、整洁、有序的氛围，也让游戏有了一丝独特的哲学意味。</p>
+<p>这段流程有几个点非常有趣，王城一开始大门紧闭，玩家只能偷偷从屋顶进入。此处最大的恶意是走房梁时被画师围殴和后面走楼顶（专业词汇叫“扶壁”）时遭受王城双弓的狙击。</p>
+<p>最终玩家将面对王城双基翁斯坦和斯摩的挑战，这场战斗非常困难，考验玩家的装备、操作技术。但是游戏却也在此设置了可选难度——玩家可以召唤NPC（太阳战士、线上其他玩家）帮助战斗。</p>
+<h3 id="取得王器"><a href="#取得王器" class="headerlink" title="取得王器"></a><strong>取得王器</strong></h3><p>此时来到整个黑暗之魂1游戏最大的一个争议点，就是在见到太阳公主并取得王器后，玩家获得了在各个地区的主篝火间传送的能力。</p>
+<p>一些玩家认为这个设计很不错，在游戏的中期解锁传送，让玩家在后期攻略四个主线区域BOSS以及完成一些NPC剧情的时候，不用再跑上大段大段重复的路，让玩家在游戏后期的体验直线上升。</p>
+<p>另一些玩家认为这个设计不好，因为它打破了游戏前半段营造的那种通过捷径、电梯、密道等让各个区域互相连接起来的世界氛围，玩家也很难再体验到那种离传火祭祀场越来越远的不安和孤独感了。</p>
+<p>总之这一段见仁见智，但是从后面的魂游戏续作来看，黑暗之魂2、3都在一开始就让玩家可以在所有篝火间传送。或许也正是这个原因让黑暗之魂1变得更加独特。 </p>
+<h3 id="游戏后半程的自由选择"><a href="#游戏后半程的自由选择" class="headerlink" title="游戏后半程的自由选择"></a><strong>游戏后半程的自由选择</strong></h3><p>从此时开始游戏又转换为了非线性，让玩家自由选择攻略4个王之灵魂的BOSS。在这一段也许玩家会有疑问，就是如何保证这4片区域，在玩家攻略的时候，难度上能保持基本一致？因为这4个BOSS的难度可能有所差别，但是玩家无论选择从哪个BOSS开始，打到最后一个BOSS的时候，因为玩家越发变强，难度一定会下降很多。这样的话，就与游戏一直以来营造的制造困难，让玩家赢得胜利的成就感相悖了。</p>
+<p>黑暗之魂1给出了一个它的解决方案，那就是将游戏的4个BOSS所在的区域制作出地形和关卡设计的差异化，用复杂险峻的地形而非极难的BOSS战来考验玩家。在公爵书库，玩家会被剧情杀，需要完成一段地牢逃脱。之后的结晶洞窟要应对隐形桥。在伊扎里斯，玩家要倘过持续烧血的岩浆，还要和BOSS混沌的温床斗智斗勇。在巨人墓地，玩家要解决黑暗环境下的照明问题。在小亚尔隆德，则是狭窄的道路和无法攻击的幽灵。</p>
+<p>至于游戏的boss攻略路线，游戏提供了不少捷径，有些boss是可选的，玩家就算没有遇到，也不影响通关游戏。</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231223173635027.png" alt="image-20231223173635027"></p>
+<p>游戏其实一直在奖励那些愿意认真阅读和观察的玩家，游戏的每个物品都有一段简单的文字描述，且大部分其实没有多少信息。但是有一些物品却隐藏了比较重要的信息。</p>
+<p>这些信息有助于玩家意识到比如说北方不死院是可以回去的，诅咒可以被解除，怎样才能攻击到小亚尔隆德的幽灵，王座上的太阳公主其实只是幻象等等。</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231224145012961.png" alt="image-20231224145012961"></p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231224140130274.png" alt="image-20231224140130274"></p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231224140048170.png" alt="image-20231224140048170"></p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231224143951930.png" alt="image-20231224143951930"></p>
+<h3 id="硬核的隐藏区域"><a href="#硬核的隐藏区域" class="headerlink" title="硬核的隐藏区域"></a><strong>硬核的隐藏区域</strong></h3><p><strong>大树洞和灰烬湖</strong></p>
+<p>如果玩家无意间打开了大树洞的隐藏门，则可以探索大树洞+灰烬湖这非常大的一片区域，这片区域是给喜欢探索隐藏玩家的巨大奖励，同时游戏也在提示玩家已经离最初的传火祭祀场非常遥远了，灰烬湖空旷的场景和悲凉的音乐，给初次探索到这里的玩家非常强烈的孤独感，但它又非常壮丽而雄伟，让玩家有一种提前探索到世界尽头的感觉。</p>
+<p><strong>绘画世界</strong></p>
+<p>要前往绘画世界，玩家得从传火祭祀场的捷径电梯中途跳出，绕到祭祀场最上面的鸟巢，假装成一只蛋，让乌鸦叼回北方不死院，回到不死院最初的监牢中，捡到道具“诡异人偶”，再到遥远的王城的绘画大厅才能传送到绘画世界。游戏只有在开了从教区到祭祀场的电梯捷径后，和灰心哥一次对话中的这么一点点不起眼的文字提示。</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/5E7F90612BF0583DDFB6DBA45AECD7BB.jpg" alt="5E7F90612BF0583DDFB6DBA45AECD7BB"></p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231224141413033.png" alt="image-20231224141413033"></p>
+<h3 id="DLC伊拉席露"><a href="#DLC伊拉席露" class="headerlink" title="DLC伊拉席露"></a><strong>DLC伊拉席露</strong></h3><p>关于DLC，游戏给出了令人眼前一亮的内容。玩家在传送到伊拉席露时，很快就会发现这就是夹缝森林和庭院区域的过去版。森林被阳光照耀着，游戏难得一见的给玩家展示出了绿色盎然的积极氛围。这种跨越长远的时间，将过去和现在作对比，烘托出了世界浓浓的史诗感。</p>
+<p>DLC的BOSS设计也更加独特，亚尔特留斯和深渊之主马努斯都更强调“迅捷”、“动作”，招式大开大合，相较于本篇的boss难度更高，对抗性也大大提升。从后续的魂系列游戏来看，FS社也是倾向于设计更多富有ACT式挑战的“动作类”boss，减少“机制杀”类boss的比例。</p>
+<h3 id="巧妙的多人合作设计"><a href="#巧妙的多人合作设计" class="headerlink" title="巧妙的多人合作设计"></a><strong>巧妙的多人合作设计</strong></h3><p>在多人在线环境中，无论是玩家之间的对抗（PVP）还是合作（PVE），过分强调社交属性可能导致不友好的互动体验。在这样的设定下，陌生人往往难以达成深度的合作，这一点可以从《魔兽世界》中的临时队伍或是《DOTA》、《英雄联盟》等游戏的路人局中观察到。</p>
+<p>然而，魂系列巧妙地运用多人在线元素来增强单人游戏流程的体验。通过引入在线建言的设计，游戏实现了弱交互的方式，使得玩家感受到仿佛有许多人在与自己共同探索这个世界。建言预设的文本留言系统不仅提供了简洁而实用的游戏信息，还有效地避免了可能出现的冒犯性言论问题，营造出一种更为和谐的游戏社区氛围。</p>
+<h3 id="游戏的问题、迷惑性"><a href="#游戏的问题、迷惑性" class="headerlink" title="游戏的问题、迷惑性"></a><strong>游戏的问题、迷惑性</strong></h3><p>游戏的第一段设计，敲响两口钟，第一口钟很好找只要探索到不死镇教区、打败石像鬼就能找到。但是第二口钟的却隐藏在很深很深的地底。你需要留意回头路收集到一把钥匙，然后从牛头恶魔BOSS战下来的桥前用钥匙打开一扇毫不起眼的木门，才能下到不死镇下层、进入底层、到达病村、在下到病村底、找到混沌魔女库拉格的巢穴，才能敲响第二口钟。第二口钟的正常流程实在过长了，一路上的道路岔路也很多，很容易将玩家搞迷路然后直接去看攻略。</p>
+<p>虽然敲响第一口钟后，可以前往黑森林庭院，并找到前往飞龙谷的道路，从飞龙谷进入病村后门。这样就能在绕过不死镇下层、底层、病村正门三个区域的情况下，较快速的打败混沌魔女库拉格并敲钟。但这样对玩家更是一种挑战，因为玩家并不清楚自己是否走在正确的路上，即便玩家通过后门进入了病村，也很难立刻联想到原来病村就是传火祭祀场“灰心哥”口中的很深很深的底层的另一口钟所在之处。</p>
+<p>如果玩家没有仔细检查自己捡到的物品说明的话，就可能会找不到不死镇下层怎么去：</p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/image-20231224142408640.png" alt="image-20231224142408640"></p>
+<p>再比如说不看攻略实在不知道怎么推进的各个NPC剧情，魂系列后续几乎所有的游戏都保持了这种晦涩的风格。从好处来讲它非常适配游戏想要塑造的这种碎片化的世界观和整体氛围，但从坏处来讲也让玩家想要弄明白剧情的难度相当高。</p>
+<h3 id="场景设计参考"><a href="#场景设计参考" class="headerlink" title="场景设计参考"></a><strong>场景设计参考</strong></h3><p>此部分内容来源于fami通对宫崎英高的访谈，这是链接（中文翻译） <a target="_blank" rel="noopener" href="https://github.com/salarwalker/DarkSoulsInterview/blob/master/DRAKSOULS%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88.pdf">https://github.com/salarwalker/DarkSoulsInterview/blob/master/DRAKSOULS%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88.pdf</a></p>
+<p>黑暗之魂世界的整体结构——北欧神话世界树</p>
+<p>公爵书库——哈利波特中的霍格沃兹学院，后来血缘里的星辰钟楼也有类似设计。</p>
+<p>结晶洞穴——墨西哥的奈卡水晶矿洞。</p>
+<p>王城亚诺尔隆德——外部参考了意大利的米兰大教堂，内部参考了法国的香波城堡中的双螺旋楼梯。</p>
+<p>混沌废都伊扎里斯——吴哥窟，位于柬埔寨西北部。</p>
+<p>小隆德遗迹——法国的勒蒙圣米舍，法国西海岸小岛上的修道院（或者叫圣米歇尔山）。</p>
+<h3 id="3D地图设计"><a href="#3D地图设计" class="headerlink" title="3D地图设计"></a><strong>3D地图设计</strong></h3><p>黑暗之魂1 3D地图开源在线观看网站： <a target="_blank" rel="noopener" href="https://noclip.website/#dksiv/dks1">noclip.website</a></p>
+<p>黑暗之魂1 手绘地图游戏全流程：DARK SOULS Illustrated Map Walkthrough <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=AHfArW9zEQ4">https://www.youtube.com/watch?v=AHfArW9zEQ4</a></p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/QQ%E6%88%AA%E5%9B%BE20231227224839.png" alt="QQ截图20231227224839"></p>
+<p><img src="/blog/2023/12/31/11-dark-souls-game-design-retro/df8p8g4-e98fb5df-7eeb-46a0-8667-ff5a4ad81eaf.png" alt="df8p8g4-e98fb5df-7eeb-46a0-8667-ff5a4ad81eaf"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a><strong>结语</strong></h3><p>本来想用本文来记录黑暗之魂1的整个游戏设计，后面发现内容越来越多，就主要大概盘点了一下被大多数玩家津津乐道的流程设计和地图设计。魂的旅程还在继续，下次再见。</p>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a><strong>参考资料</strong></h3><p>本文参考资料部分来自：</p>
+<p>【中文】fami通对宫崎英高的访谈（中文翻译） <a target="_blank" rel="noopener" href="https://github.com/salarwalker/DarkSoulsInterview/blob/master/DRAKSOULS%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88.pdf">https://github.com/salarwalker/DarkSoulsInterview/blob/master/DRAKSOULS%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88.pdf</a></p>
+<p>【中文】【Boss Keys】《黑暗之魂》的世界设计 The World Design of Dark Souls | GMTK <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1EW411V73V">https://www.bilibili.com/video/BV1EW411V73V</a></p>
+<p>【英文】DaveControl Dark Souls Design - Retrospective <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=mNQCmzjh1w4">https://www.youtube.com/watch?v=mNQCmzjh1w4</a></p>
+<p>【英文】Dark Souls Dissected #9 - Lordran’s Layout Explained <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=sr0ayFx4tBY&amp;t=1s">https://www.youtube.com/watch?v=sr0ayFx4tBY&amp;t=1s</a></p>
+<p>【日文】黑暗之魂1官方设定集</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://com-jysg-never-end.gitee.io">太冷特</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://com-jysg-never-end.gitee.io/2023/12/31/11-dark-souls-game-design-retro/">http://com-jysg-never-end.gitee.io/2023/12/31/11-dark-souls-game-design-retro/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://com-jysg-never-end.gitee.io" target="_blank">JYSG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/%E6%B8%B8%E6%88%8F/">游戏</a></div><div class="post_share"><div class="social-share" data-image="/blog/images/cover_image/image-20231231784321.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdnjs.cloudflare.com/ajax/libs/butterfly-extsrc/1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/blog/2023/08/20/10-record-diy-pc/"><img class="next-cover" src="/blog/images/cover_image/image-20230820654378.png" onerror="onerror=null;src='/blog/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">记录一下第二次的装机生涯</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/blog/2022/09/11/03-they-are-billions-blood-and-lgd/" title="《亿万僵尸》——掌控血压与LGD模拟器"><img class="cover" src="/blog/images/cover_image/image-20220911456789678.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-09-11</div><div class="title">《亿万僵尸》——掌控血压与LGD模拟器</div></div></a></div><div><a href="/blog/2023/01/27/07-shenzhitianping-xia/" title="我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）"><img class="cover" src="/blog/images/cover_image/image-20230127001705.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-27</div><div class="title">我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）</div></div></a></div><div><a href="/blog/2023/01/26/06-shenzhitianping-shang/" title="我为了一只鸟不救老婆导致世界毁灭了——《神之天平》剧情图文赏析（上）"><img class="cover" src="/blog/images/cover_image/image-20230126235838.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-26</div><div class="title">我为了一只鸟不救老婆导致世界毁灭了——《神之天平》剧情图文赏析（上）</div></div></a></div><div><a href="/blog/2023/03/12/08-bafanglvren-zhuxianjuqing/" title="【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A"><img class="cover" src="/blog/images/cover_image/image-20230312162217.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-12</div><div class="title">【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A</div></div></a></div><div><a href="/blog/2022/09/18/04-stray-cat-assassin-and-old-chongqing/" title="《Stray迷失》——赛博&quot;猫客信条&quot;与老重庆"><img class="cover" src="/blog/images/cover_image/image-20220918142753245.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-09-18</div><div class="title">《Stray迷失》——赛博&quot;猫客信条&quot;与老重庆</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/blog/images/ssocialAvatar.jpg" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">太冷特</div><div class="author-info__description">JYSG Never End</div></div><div class="card-info-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://space.bilibili.com/3493126004017170"><i></i><span>关注 bilibili</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://portrait.gitee.com/uploads/avatars/user/3761/11285102_com-jysg-never-end_1656916101.png!avatar200" target="_blank" title="太冷特"><i class="fab fa-gitee"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><a class="button--animated">你发现了JYSG的秘密小屋:）</a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E7%9A%84%E4%B8%BB%E7%BA%BF%E7%BC%96%E6%8E%92"><span class="toc-text">游戏的主线编排</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E6%AD%BB%E9%99%A2-amp-%E4%BC%A0%E7%81%AB%E7%A5%AD%E7%A5%80%E5%9C%BA"><span class="toc-text">不死院&amp;传火祭祀场</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%8E%E5%A4%96%E4%B8%8D%E6%AD%BB%E9%95%87"><span class="toc-text">城外不死镇</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E6%AD%BB%E9%95%87%E6%95%99%E5%8C%BA%E5%9B%9E%E5%88%B0%E4%BC%A0%E7%81%AB%E7%A5%AD%E7%A5%80%E5%9C%BA%E7%9A%84%E7%94%B5%E6%A2%AF%E6%8D%B7%E5%BE%84"><span class="toc-text">不死镇教区回到传火祭祀场的电梯捷径</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B2%E5%93%8D%E7%AC%AC%E4%B8%80%E5%8F%A3%E9%92%9F%E5%90%8E%E7%9A%84%E9%80%89%E6%8B%A9"><span class="toc-text">敲响第一口钟后的选择</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E6%AD%BB%E9%95%87%E4%B8%8B%E5%B1%82-amp-%E5%BA%95%E5%B1%82"><span class="toc-text">不死镇下层&amp;底层</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%97%85%E6%9D%91-amp-%E6%B7%B7%E6%B2%8C%E9%AD%94%E5%A5%B3%E5%BA%93%E6%8B%89%E6%A0%BC"><span class="toc-text">病村&amp;混沌魔女库拉格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A1%9E%E6%81%A9%E5%8F%A4%E5%9F%8E"><span class="toc-text">塞恩古城</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%8B%E5%9F%8E"><span class="toc-text">王城</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%96%E5%BE%97%E7%8E%8B%E5%99%A8"><span class="toc-text">取得王器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E5%90%8E%E5%8D%8A%E7%A8%8B%E7%9A%84%E8%87%AA%E7%94%B1%E9%80%89%E6%8B%A9"><span class="toc-text">游戏后半程的自由选择</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A1%AC%E6%A0%B8%E7%9A%84%E9%9A%90%E8%97%8F%E5%8C%BA%E5%9F%9F"><span class="toc-text">硬核的隐藏区域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DLC%E4%BC%8A%E6%8B%89%E5%B8%AD%E9%9C%B2"><span class="toc-text">DLC伊拉席露</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A7%E5%A6%99%E7%9A%84%E5%A4%9A%E4%BA%BA%E5%90%88%E4%BD%9C%E8%AE%BE%E8%AE%A1"><span class="toc-text">巧妙的多人合作设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E7%9A%84%E9%97%AE%E9%A2%98%E3%80%81%E8%BF%B7%E6%83%91%E6%80%A7"><span class="toc-text">游戏的问题、迷惑性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%BA%E6%99%AF%E8%AE%BE%E8%AE%A1%E5%8F%82%E8%80%83"><span class="toc-text">场景设计参考</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3D%E5%9C%B0%E5%9B%BE%E8%AE%BE%E8%AE%A1"><span class="toc-text">3D地图设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD"><span class="toc-text">结语</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-text">参考资料</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/12/31/11-dark-souls-game-design-retro/" title="《黑暗之魂1》 游戏流程设计回顾"><img src="/blog/images/cover_image/image-20231231784321.png" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="《黑暗之魂1》 游戏流程设计回顾"/></a><div class="content"><a class="title" href="/blog/2023/12/31/11-dark-souls-game-design-retro/" title="《黑暗之魂1》 游戏流程设计回顾">《黑暗之魂1》 游戏流程设计回顾</a><time datetime="2023-12-31T04:40:01.000Z" title="发表于 2023-12-31 12:40:01">2023-12-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/08/20/10-record-diy-pc/" title="记录一下第二次的装机生涯"><img src="/blog/images/cover_image/image-20230820654378.png" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="记录一下第二次的装机生涯"/></a><div class="content"><a class="title" href="/blog/2023/08/20/10-record-diy-pc/" title="记录一下第二次的装机生涯">记录一下第二次的装机生涯</a><time datetime="2023-08-20T15:21:11.000Z" title="发表于 2023-08-20 23:21:11">2023-08-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/" title="90%AI——用StableDiffusion+PS生成二游小姐姐立绘"><img src="/blog/images/cover_image/image-20230834235855.png" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="90%AI——用StableDiffusion+PS生成二游小姐姐立绘"/></a><div class="content"><a class="title" href="/blog/2023/08/06/09-stable-diffusion-draw-anime-girl/" title="90%AI——用StableDiffusion+PS生成二游小姐姐立绘">90%AI——用StableDiffusion+PS生成二游小姐姐立绘</a><time datetime="2023-08-06T12:35:51.000Z" title="发表于 2023-08-06 20:35:51">2023-08-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/03/12/08-bafanglvren-zhuxianjuqing/" title="【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A"><img src="/blog/images/cover_image/image-20230312162217.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A"/></a><div class="content"><a class="title" href="/blog/2023/03/12/08-bafanglvren-zhuxianjuqing/" title="【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A">【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A</a><time datetime="2023-03-12T08:22:17.000Z" title="发表于 2023-03-12 16:22:17">2023-03-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/01/27/07-shenzhitianping-xia/" title="我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）"><img src="/blog/images/cover_image/image-20230127001705.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）"/></a><div class="content"><a class="title" href="/blog/2023/01/27/07-shenzhitianping-xia/" title="我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）">我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）</a><time datetime="2023-01-26T16:17:05.000Z" title="发表于 2023-01-27 00:17:05">2023-01-27</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/blog/images/cover_image/image-20231231784321.png')"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By 太冷特</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-butterfly/4.3.1/js/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-butterfly/4.3.1/js/main.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/4.0.27/fancybox.umd.min.js"></script><div class="js-pjax"></div></div></body></html>
