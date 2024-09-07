@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tailent.github.io/gallery/fantasy/index.html</loc>
+    <loc>https://jysg-software.pages.dev/gallery/fantasy/index.html</loc>
+    
+    <lastmod>2024-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jysg-software.pages.dev/2022/07/23/02-how-to-create-free-blog/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2022/07/23/02-how-to-create-free-blog/</loc>
+    <loc>https://jysg-software.pages.dev/2023/12/31/11-dark-souls-game-design-retro/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2023/12/31/11-dark-souls-game-design-retro/</loc>
+    <loc>https://jysg-software.pages.dev/2023/08/20/10-record-diy-pc/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2023/08/20/10-record-diy-pc/</loc>
+    <loc>https://jysg-software.pages.dev/2023/08/06/09-stable-diffusion-draw-anime-girl/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2023/08/06/09-stable-diffusion-draw-anime-girl/</loc>
+    <loc>https://jysg-software.pages.dev/2023/03/12/08-bafanglvren-zhuxianjuqing/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2023/03/12/08-bafanglvren-zhuxianjuqing/</loc>
+    <loc>https://jysg-software.pages.dev/2022/10/02/05-plz-choose-your-summer-memory/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2022/10/02/05-plz-choose-your-summer-memory/</loc>
+    <loc>https://jysg-software.pages.dev/2023/01/27/07-shenzhitianping-xia/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2023/01/27/07-shenzhitianping-xia/</loc>
+    <loc>https://jysg-software.pages.dev/2023/01/26/06-shenzhitianping-shang/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2023/01/26/06-shenzhitianping-shang/</loc>
+    <loc>https://jysg-software.pages.dev/2022/09/11/03-they-are-billions-blood-and-lgd/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2022/09/11/03-they-are-billions-blood-and-lgd/</loc>
+    <loc>https://jysg-software.pages.dev/2022/09/18/04-stray-cat-assassin-and-old-chongqing/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -92,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2022/09/18/04-stray-cat-assassin-and-old-chongqing/</loc>
+    <loc>https://jysg-software.pages.dev/2024/01/13/12-demon-souls-nonlinear-open-souls-series/</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -101,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2024/01/13/12-demon-souls-nonlinear-open-souls-series/</loc>
+    <loc>https://jysg-software.pages.dev/gallery/index.html</loc>
     
     <lastmod>2024-07-15</lastmod>
     
@@ -110,16 +119,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/gallery/index.html</loc>
-    
-    <lastmod>2024-07-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://tailent.github.io/about/index.html</loc>
+    <loc>https://jysg-software.pages.dev/about/index.html</loc>
     
     <lastmod>2024-07-10</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/2022/07/06/01-hello-world/</loc>
+    <loc>https://jysg-software.pages.dev/2022/07/06/01-hello-world/</loc>
     
     <lastmod>2024-07-09</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/tags/index.html</loc>
+    <loc>https://jysg-software.pages.dev/tags/index.html</loc>
     
     <lastmod>2022-07-07</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>http://tailent.github.io/categories/index.html</loc>
+    <loc>https://jysg-software.pages.dev/categories/index.html</loc>
     
     <lastmod>2022-07-07</lastmod>
     
@@ -156,44 +156,44 @@
   
 
   <url>
-    <loc>http://tailent.github.io/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://tailent.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/tags/%E5%8A%A8%E6%BC%AB/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/tags/%E5%8A%A8%E6%BC%AB/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/tags/AI/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/tags/AI/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/tags/%E8%A3%85%E6%9C%BA/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/tags/%E8%A3%85%E6%9C%BA/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -201,36 +201,36 @@
 
   
   <url>
-    <loc>http://tailent.github.io/categories/blog/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/categories/blog/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/categories/%E5%8A%A8%E6%BC%AB%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/categories/%E5%8A%A8%E6%BC%AB%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/categories/%E5%89%A7%E6%83%85/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/categories/%E5%89%A7%E6%83%85/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://tailent.github.io/categories/%E9%AD%82%E7%B3%BB%E5%88%97/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://jysg-software.pages.dev/categories/%E9%AD%82%E7%B3%BB%E5%88%97/</loc>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

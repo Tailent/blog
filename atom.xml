@@ -3,11 +3,11 @@
   <title>JYSG</title>
   
   <subtitle>JYSG Never End</subtitle>
-  <link href="http://tailent.github.io/atom.xml" rel="self"/>
+  <link href="https://jysg-software.pages.dev/atom.xml" rel="self"/>
   
-  <link href="http://tailent.github.io/"/>
+  <link href="https://jysg-software.pages.dev/"/>
   <updated>2024-07-15T14:06:11.775Z</updated>
-  <id>http://tailent.github.io/</id>
+  <id>https://jysg-software.pages.dev/</id>
   
   <author>
     <name>太冷特</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>《恶魔之魂》非线性流程开启跌上神坛的魂系列</title>
-    <link href="http://tailent.github.io/2024/01/13/12-demon-souls-nonlinear-open-souls-series/"/>
-    <id>http://tailent.github.io/2024/01/13/12-demon-souls-nonlinear-open-souls-series/</id>
+    <link href="https://jysg-software.pages.dev/2024/01/13/12-demon-souls-nonlinear-open-souls-series/"/>
+    <id>https://jysg-software.pages.dev/2024/01/13/12-demon-souls-nonlinear-open-souls-series/</id>
     <published>2024-01-13T06:52:14.000Z</published>
     <updated>2024-07-15T14:06:11.775Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="魂系列" scheme="http://tailent.github.io/categories/%E9%AD%82%E7%B3%BB%E5%88%97/"/>
+    <category term="魂系列" scheme="https://jysg-software.pages.dev/categories/%E9%AD%82%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="游戏" scheme="http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
   <entry>
     <title>《黑暗之魂1》 游戏流程设计回顾</title>
-    <link href="http://tailent.github.io/2023/12/31/11-dark-souls-game-design-retro/"/>
-    <id>http://tailent.github.io/2023/12/31/11-dark-souls-game-design-retro/</id>
+    <link href="https://jysg-software.pages.dev/2023/12/31/11-dark-souls-game-design-retro/"/>
+    <id>https://jysg-software.pages.dev/2023/12/31/11-dark-souls-game-design-retro/</id>
     <published>2023-12-31T04:40:01.000Z</published>
     <updated>2024-07-15T14:40:01.078Z</updated>
     
@@ -51,17 +51,17 @@
     
     
     
-    <category term="魂系列" scheme="http://tailent.github.io/categories/%E9%AD%82%E7%B3%BB%E5%88%97/"/>
+    <category term="魂系列" scheme="https://jysg-software.pages.dev/categories/%E9%AD%82%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="游戏" scheme="http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
   <entry>
     <title>记录一下第二次的装机生涯</title>
-    <link href="http://tailent.github.io/2023/08/20/10-record-diy-pc/"/>
-    <id>http://tailent.github.io/2023/08/20/10-record-diy-pc/</id>
+    <link href="https://jysg-software.pages.dev/2023/08/20/10-record-diy-pc/"/>
+    <id>https://jysg-software.pages.dev/2023/08/20/10-record-diy-pc/</id>
     <published>2023-08-20T15:21:11.000Z</published>
     <updated>2024-07-15T14:39:56.502Z</updated>
     
@@ -72,17 +72,17 @@
     
     
     
-    <category term="攻略心得" scheme="http://tailent.github.io/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
+    <category term="攻略心得" scheme="https://jysg-software.pages.dev/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
     
     
-    <category term="装机" scheme="http://tailent.github.io/tags/%E8%A3%85%E6%9C%BA/"/>
+    <category term="装机" scheme="https://jysg-software.pages.dev/tags/%E8%A3%85%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>90%AI——用StableDiffusion+PS生成二游小姐姐立绘</title>
-    <link href="http://tailent.github.io/2023/08/06/09-stable-diffusion-draw-anime-girl/"/>
-    <id>http://tailent.github.io/2023/08/06/09-stable-diffusion-draw-anime-girl/</id>
+    <link href="https://jysg-software.pages.dev/2023/08/06/09-stable-diffusion-draw-anime-girl/"/>
+    <id>https://jysg-software.pages.dev/2023/08/06/09-stable-diffusion-draw-anime-girl/</id>
     <published>2023-08-06T12:35:51.000Z</published>
     <updated>2024-07-15T14:39:50.070Z</updated>
     
@@ -93,17 +93,17 @@
     
     
     
-    <category term="攻略心得" scheme="http://tailent.github.io/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
+    <category term="攻略心得" scheme="https://jysg-software.pages.dev/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
     
     
-    <category term="AI" scheme="http://tailent.github.io/tags/AI/"/>
+    <category term="AI" scheme="https://jysg-software.pages.dev/tags/AI/"/>
     
   </entry>
   
   <entry>
     <title>【剧透警告】【八方旅人2】——主线人物剧情Q&amp;A</title>
-    <link href="http://tailent.github.io/2023/03/12/08-bafanglvren-zhuxianjuqing/"/>
-    <id>http://tailent.github.io/2023/03/12/08-bafanglvren-zhuxianjuqing/</id>
+    <link href="https://jysg-software.pages.dev/2023/03/12/08-bafanglvren-zhuxianjuqing/"/>
+    <id>https://jysg-software.pages.dev/2023/03/12/08-bafanglvren-zhuxianjuqing/</id>
     <published>2023-03-12T08:22:17.000Z</published>
     <updated>2024-07-15T14:39:46.382Z</updated>
     
@@ -114,17 +114,17 @@
     
     
     
-    <category term="剧情" scheme="http://tailent.github.io/categories/%E5%89%A7%E6%83%85/"/>
+    <category term="剧情" scheme="https://jysg-software.pages.dev/categories/%E5%89%A7%E6%83%85/"/>
     
     
-    <category term="游戏" scheme="http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
   <entry>
     <title>我用肝换到了爱情但只想思考哲学和宇宙——《神之天平》剧情图文赏析（下）</title>
-    <link href="http://tailent.github.io/2023/01/27/07-shenzhitianping-xia/"/>
-    <id>http://tailent.github.io/2023/01/27/07-shenzhitianping-xia/</id>
+    <link href="https://jysg-software.pages.dev/2023/01/27/07-shenzhitianping-xia/"/>
+    <id>https://jysg-software.pages.dev/2023/01/27/07-shenzhitianping-xia/</id>
     <published>2023-01-26T16:17:05.000Z</published>
     <updated>2024-07-15T14:39:26.747Z</updated>
     
@@ -135,17 +135,17 @@
     
     
     
-    <category term="剧情" scheme="http://tailent.github.io/categories/%E5%89%A7%E6%83%85/"/>
+    <category term="剧情" scheme="https://jysg-software.pages.dev/categories/%E5%89%A7%E6%83%85/"/>
     
     
-    <category term="游戏" scheme="http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
   <entry>
     <title>我为了一只鸟不救老婆导致世界毁灭了——《神之天平》剧情图文赏析（上）</title>
-    <link href="http://tailent.github.io/2023/01/26/06-shenzhitianping-shang/"/>
-    <id>http://tailent.github.io/2023/01/26/06-shenzhitianping-shang/</id>
+    <link href="https://jysg-software.pages.dev/2023/01/26/06-shenzhitianping-shang/"/>
+    <id>https://jysg-software.pages.dev/2023/01/26/06-shenzhitianping-shang/</id>
     <published>2023-01-26T15:58:38.000Z</published>
     <updated>2024-07-15T14:39:22.101Z</updated>
     
@@ -156,17 +156,17 @@
     
     
     
-    <category term="剧情" scheme="http://tailent.github.io/categories/%E5%89%A7%E6%83%85/"/>
+    <category term="剧情" scheme="https://jysg-software.pages.dev/categories/%E5%89%A7%E6%83%85/"/>
     
     
-    <category term="游戏" scheme="http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
   <entry>
     <title>请挑选你对2022的夏天回忆——《夏日重现》</title>
-    <link href="http://tailent.github.io/2022/10/02/05-plz-choose-your-summer-memory/"/>
-    <id>http://tailent.github.io/2022/10/02/05-plz-choose-your-summer-memory/</id>
+    <link href="https://jysg-software.pages.dev/2022/10/02/05-plz-choose-your-summer-memory/"/>
+    <id>https://jysg-software.pages.dev/2022/10/02/05-plz-choose-your-summer-memory/</id>
     <published>2022-10-02T12:30:00.000Z</published>
     <updated>2024-07-15T14:39:35.269Z</updated>
     
@@ -177,38 +177,38 @@
     
     
     
-    <category term="动漫杂谈" scheme="http://tailent.github.io/categories/%E5%8A%A8%E6%BC%AB%E6%9D%82%E8%B0%88/"/>
+    <category term="动漫杂谈" scheme="https://jysg-software.pages.dev/categories/%E5%8A%A8%E6%BC%AB%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="动漫" scheme="http://tailent.github.io/tags/%E5%8A%A8%E6%BC%AB/"/>
+    <category term="动漫" scheme="https://jysg-software.pages.dev/tags/%E5%8A%A8%E6%BC%AB/"/>
     
   </entry>
   
   <entry>
     <title>《Stray迷失》——赛博&quot;猫客信条&quot;与老重庆</title>
-    <link href="http://tailent.github.io/2022/09/18/04-stray-cat-assassin-and-old-chongqing/"/>
-    <id>http://tailent.github.io/2022/09/18/04-stray-cat-assassin-and-old-chongqing/</id>
+    <link href="https://jysg-software.pages.dev/2022/09/18/04-stray-cat-assassin-and-old-chongqing/"/>
+    <id>https://jysg-software.pages.dev/2022/09/18/04-stray-cat-assassin-and-old-chongqing/</id>
     <published>2022-09-18T09:50:00.000Z</published>
     <updated>2024-07-15T14:07:03.172Z</updated>
     
-    <content type="html"><![CDATA[<meta name="referrer" content="no-referrer">加粗带数字黑字在最下方附录中有名词解释<h1 id="一、一只误入地下世界的小橘猫"><a href="#一、一只误入地下世界的小橘猫" class="headerlink" title="一、一只误入地下世界的小橘猫"></a>一、一只误入地下世界的小橘猫</h1><h3 id="猫猫模拟器-实现赛博撸猫自由"><a href="#猫猫模拟器-实现赛博撸猫自由" class="headerlink" title="猫猫模拟器 实现赛博撸猫自由"></a>猫猫模拟器 实现赛博撸猫自由</h3><p>注意看，这只猫猫叫小橘，就在刚才， 它在经过一个废弃的水管时不慎摔落，掉到了地底中……</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484128915-95946c30-145d-46b2-8a1f-777e4816c416.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663483657318-3016a7c3-0b82-44db-a771-20b7cfb8b049.png" alt="img"></p><p>这个叫<strong>《stray》</strong><sup><strong>1</strong></sup>（中文翻译成《迷失》）的游戏在刚出演示的时候，就展示出了无比生动的猫猫神态。在实际上手之后，这种体验也确实非常不错。额我是想说，终于可以来一把云撸猫了。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663484137804-e3538e51-84c6-44dc-addc-5cc0d1cc0978.jpeg" alt="img"></p><p>游戏在还原真实的第一猫称视角的同时，也完美还原了猫猫上蹿下跳带来的晕眩感。不好，我的晕3d症状要涌上来了。<img src="/blog/2022/09/18/04-stray-cat-assassin-and-old-chongqing/1663483998434-9bdb7e0a-47cf-4d4b-b835-f2bf3975ddf9.jpeg" alt="img"></p><h3 id="机器人也有高低贵贱-高墙与帷幕封锁下的赛博城市"><a href="#机器人也有高低贵贱-高墙与帷幕封锁下的赛博城市" class="headerlink" title="机器人也有高低贵贱 高墙与帷幕封锁下的赛博城市"></a>机器人也有高低贵贱 高墙与帷幕封锁下的赛博城市</h3><p>小橘误入的地底竟然别有洞天，我第一时间想到了误入桃花源记的武陵渔人。</p><p>但这是个老外制作的<strong>赛博朋克</strong><sup><strong>2</strong></sup>风格的游戏，所以映入我们眼帘的，是一座现代而又老旧的城市。</p><p>城市的主要场景是下城和中城，下城借鉴了赛博朋克题材中常常出现的东方城市，霓虹灯与间隔紧密的建筑，游戏里称作”贫民窟”，足以见其处于世界的底层。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663484195866-954f5087-c340-4fb9-a971-6fbb68e9dfcb.jpeg" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484749813-6575dfc9-d132-4caf-afad-19c6eccf30cc.png" alt="img"></p><p>中城的灯光更加绚丽，有着热闹的商店街和夜店等。但是居民都处于卫兵的监控之下。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484475803-642494d6-8cb0-4ff4-a1d2-a66aebce764d.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484905228-ff0ddebf-be1d-4860-9736-1fef264767e0.png" alt="img"></p><p>实际上，下城在上面的人眼里，就是倾倒垃圾的垃圾场。整个城市都被一个叫”Neco”的公司掌控着。上下城区之间的机器人隔着巨大的阶级差距。</p><p>下城通往中城的电梯被破坏了，城市的天空也不是真正的天空，其实整个城市都被包围在高耸的巨大围墙和星空帷幕之下。</p><p>可以，这很赛博朋克。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484592202-d5a67c05-c74d-4314-8641-96ce5a806601.png" alt="img"></p><h1 id="二、赛博朋克风格城市-老重庆记忆"><a href="#二、赛博朋克风格城市-老重庆记忆" class="headerlink" title="二、赛博朋克风格城市 老重庆记忆"></a>二、赛博朋克风格城市 老重庆记忆</h1><h3 id="赛博朋克城市的原型参考-有哪些老重庆的味道"><a href="#赛博朋克城市的原型参考-有哪些老重庆的味道" class="headerlink" title="赛博朋克城市的原型参考 有哪些老重庆的味道"></a>赛博朋克城市的原型参考 有哪些老重庆的味道</h3><p>现在的主流说法一般认为赛博朋克中东方建筑风格的城市取材于上个世纪90年代香港的九龙城寨，特别是分布紧密的居民楼、空调外机、防盗网、门帘等等。</p><p>这不禁让我想起了老重庆，这个到处都要爬坡上坎的城市。</p><p>那个时候还没有多少家里有空调，每个夏天都是和电风扇、凉板还有蚊子作伴。</p><p>因为没有电梯，那时的居民楼都不会太高。但是经常有从中间修一条路出来的情况，将一栋楼分成了上下两层。这种结构也让重庆的楼宇之间纷繁复杂，道路众多。</p><p><img src="/blog/2022/09/18/04-stray-cat-assassin-and-old-chongqing/1663488644786-26fe7f4c-e1b7-4e56-8bb9-a1b6edbd1418.png" alt="img"></p><h3 id="现实的九龙城寨被强制拆除-而重庆的高楼大厦拔地而起"><a href="#现实的九龙城寨被强制拆除-而重庆的高楼大厦拔地而起" class="headerlink" title="现实的九龙城寨被强制拆除 而重庆的高楼大厦拔地而起"></a>现实的九龙城寨被强制拆除 而重庆的高楼大厦拔地而起</h3><p>前不久我回了一趟最老重庆的渝中区，从李子坝一路上到佛图关。那些关于老重庆的味道，有的已经改造成了文创旅游的景点，到处是打卡的网红。有的则还保留着人们生活的烟火气息，时间在这里似乎是缓慢的流逝。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663486865324-2ac6ef0d-b39d-4243-84d0-884e47000e2a.jpeg" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663486384677-8a3f75a7-9a59-4707-bb01-447a82112938.jpeg" alt="img"></p><h1 id="三、猫猫程序员-修复一个大bug"><a href="#三、猫猫程序员-修复一个大bug" class="headerlink" title="三、猫猫程序员 修复一个大bug"></a>三、猫猫程序员 修复一个大bug</h1><h3 id="原来我们扮演的是一个修复bug的程序员"><a href="#原来我们扮演的是一个修复bug的程序员" class="headerlink" title="原来我们扮演的是一个修复bug的程序员"></a>原来我们扮演的是一个修复bug的程序员</h3><p>回到游戏主线，在逛下城和中城的过程中，我们扮演的小橘也大概明白了自己需要干什么。</p><p>在路途中结识的几位<strong>机器人NPC</strong><sup><strong>3</strong></sup>的指引下，我们要和<strong>B-12</strong><sup><strong>4</strong></sup>一起去到上城，找到通往外界的方法，让这座机器人城市重见天日。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663488765686-ede59b44-2df5-4622-90d9-9f16bc299294.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663488881940-3fbae4e1-b781-438d-80fe-90736df836e7.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663488657007-2ed0be7b-ac3a-48ca-9b9c-27560089447d.png" alt="img"></p><h3 id="看不见的地方-城市下水道、垃圾处理场"><a href="#看不见的地方-城市下水道、垃圾处理场" class="headerlink" title="看不见的地方 城市下水道、垃圾处理场"></a>看不见的地方 城市下水道、垃圾处理场</h3><p>下水道一直是一个游戏当中能够很好表现游戏世界观的元素，这是外表光鲜亮丽的城市的另一面，它处在暗无天日的阴影之下。垃圾、脏污纳垢从来都不会自然而然的消失，下水道、垃圾场，是我们修复bug所必经的一环。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489249378-bedd7d98-b2a5-4f53-b9eb-f235f7307bf3.png" alt="img"></p><p>在下水道中，我们见到了导致城市停摆的始作俑者——“菌克”，一种原本研发来处理垃圾的细菌，却因为不可控变异为了吞噬一切的可怕怪物。机器人、下城的部分城区，都因它们而毁灭。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489259895-4cea1064-fd73-4738-a8e2-bcdd38261c2a.png" alt="img"></p><h3 id="猫客信条！飞檐走壁的矫健身手与外置大脑"><a href="#猫客信条！飞檐走壁的矫健身手与外置大脑" class="headerlink" title="猫客信条！飞檐走壁的矫健身手与外置大脑"></a>猫客信条！飞檐走壁的矫健身手与外置大脑</h3><p>B-12可以说是小橘的外置大脑，一直指挥着我们如何行动。从建筑高塔、下水道、垃圾场摆脱菌克的撕咬，到公寓、监狱潜行穿越”Neco”公司的守卫。这场冒险让我们与无人机B-12结下了深厚的友谊。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489274347-d09443b0-acca-4ee8-9971-e002dc1f85e9.png" alt="img"></p><h1 id="四、墙的外面是什么？猫の信条将去向何方"><a href="#四、墙的外面是什么？猫の信条将去向何方" class="headerlink" title="四、墙的外面是什么？猫の信条将去向何方"></a>四、墙的外面是什么？猫の信条将去向何方</h1><p>以下有剧透警告⚠️</p><h3 id="机器人困在了自己画地为牢的高墙之中"><a href="#机器人困在了自己画地为牢的高墙之中" class="headerlink" title="机器人困在了自己画地为牢的高墙之中"></a>机器人困在了自己画地为牢的高墙之中</h3><p>终于，我们到了”上城”，一个无比干净整洁的地方。这里可以透过巨大的落地窗俯瞰整个机器人城市。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489811226-afc8aa50-0e79-492d-a38a-cb6e27a3915c.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489816581-50775499-87b7-4995-82dd-7fb92eb768d5.png" alt="img"></p><p>我们也终于排查清楚了bug的原因：原先的人类为了躲避外面的灾难而建造了这座城市。在人类几乎灭亡后，机器人继续执行着人类的指令，将自己围困在这高墙之下。但小橘就是从外面掉进来的，说明其实外界早已安全。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489827343-8ae1d24c-4d94-46ac-b271-e58ca9e3471a.png" alt="img"></p><h3 id="但总有一些声音渴望着外界"><a href="#但总有一些声音渴望着外界" class="headerlink" title="但总有一些声音渴望着外界"></a>但总有一些声音渴望着外界</h3><p>B-12其实从一开始就在引导着猫猫来唤醒自己，因为B-12是一个将意识上传到了机器网络中的人类科学家。一路上我们结识了4个渴望去到外界的机器人，它们无畏可怕的菌克和强大的Neco势力，纵使牺牲自己也要帮助我们。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489854709-6a0a8ccd-441d-461e-8ab0-731f74d6a5f4.png" alt="img"></p><h3 id="从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条"><a href="#从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条" class="headerlink" title="从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条"></a>从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条</h3><p>在最后的城市主机系统面前，B-12以格式化自己数据为代价，重写了系统，开启了城市上空紧闭着的黑色帷幕。阳光猛烈，万物显形，菌克被消灭，原本监视和追捕机器人的”Neco”守卫也被解除。终于，城市和机器人们重获新生。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489878618-a91a871a-d83f-42a7-95db-330555737199.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489884207-d4e42c0c-6856-4bd3-be97-8ff2fe65fca4.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489908203-24354761-3e72-4a9e-bcf3-47dcf054b464.png" alt="img"></p><p>与B-12告别后，小橘独自迈向了充满阳光与绿草的外界。回到自然中去，自由——或许才是它的归宿。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489919271-d6c909b4-8431-459f-ac06-4fbfa7b75e34.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489925158-bb7b6de1-580d-486d-a301-96366ed8a2d7.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489933333-a5393993-6626-4fe1-b7d1-9fbc81f18f8e.png" alt="img"></p><p>——stqin 9.18.2022</p><h1 id="附录-名词解释"><a href="#附录-名词解释" class="headerlink" title="附录 名词解释"></a>附录 名词解释</h1><p>1.<strong>《stray》</strong>：是一款以猫为主角的第三人称冒险游戏。故事发生在一座日渐衰败的赛博城市，这里有着刻画细致的霓虹闪烁的小巷，以及脏乱阴暗的下层环境。在冒险途中，这只猫结识了一台编号为 B-12 的小型无人机。在这个新同伴的帮助下，一猫一机努力寻找出路。探索这个只有平凡的机器人和危险生物的冷漠之地，并设法解开这里的谜团。</p><p>2.<strong>赛博朋克</strong>：英文cyberpunk的音译。通常指代一种虚构的近未来数字网络时代，画面里通常有很多各种颜色的霓虹灯与间隔紧密的高楼大厦。是一种反乌托邦的科幻题材。</p><p>3.<strong>机器人NPC</strong>：这里指本游戏中的四位帮助小橘猫的机器人：Momo、Doc、Zbaltazar、Clementine，是城市中少数想去到外界的机器人。</p><p>4.<strong>B-12</strong>：和小橘猫一起冒险的无人机，真实身份是一个上传了意识的人类科学家。最后为了能重写城市控制系统，格式化了自己的记忆，在结尾CG处似乎又回到了网络中。</p>]]></content>
+    <content type="html"><![CDATA[<meta name="referrer" content="no-referrer">加粗带数字黑字在最下方附录中有名词解释<h1 id="一、一只误入地下世界的小橘猫"><a href="#一、一只误入地下世界的小橘猫" class="headerlink" title="一、一只误入地下世界的小橘猫"></a>一、一只误入地下世界的小橘猫</h1><h3 id="猫猫模拟器-实现赛博撸猫自由"><a href="#猫猫模拟器-实现赛博撸猫自由" class="headerlink" title="猫猫模拟器 实现赛博撸猫自由"></a>猫猫模拟器 实现赛博撸猫自由</h3><p>注意看，这只猫猫叫小橘，就在刚才， 它在经过一个废弃的水管时不慎摔落，掉到了地底中……</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484128915-95946c30-145d-46b2-8a1f-777e4816c416.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663483657318-3016a7c3-0b82-44db-a771-20b7cfb8b049.png" alt="img"></p><p>这个叫<strong>《stray》</strong><sup><strong>1</strong></sup>（中文翻译成《迷失》）的游戏在刚出演示的时候，就展示出了无比生动的猫猫神态。在实际上手之后，这种体验也确实非常不错。额我是想说，终于可以来一把云撸猫了。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663484137804-e3538e51-84c6-44dc-addc-5cc0d1cc0978.jpeg" alt="img"></p><p>游戏在还原真实的第一猫称视角的同时，也完美还原了猫猫上蹿下跳带来的晕眩感。不好，我的晕3d症状要涌上来了。<img src="/2022/09/18/04-stray-cat-assassin-and-old-chongqing/1663483998434-9bdb7e0a-47cf-4d4b-b835-f2bf3975ddf9.jpeg" alt="img"></p><h3 id="机器人也有高低贵贱-高墙与帷幕封锁下的赛博城市"><a href="#机器人也有高低贵贱-高墙与帷幕封锁下的赛博城市" class="headerlink" title="机器人也有高低贵贱 高墙与帷幕封锁下的赛博城市"></a>机器人也有高低贵贱 高墙与帷幕封锁下的赛博城市</h3><p>小橘误入的地底竟然别有洞天，我第一时间想到了误入桃花源记的武陵渔人。</p><p>但这是个老外制作的<strong>赛博朋克</strong><sup><strong>2</strong></sup>风格的游戏，所以映入我们眼帘的，是一座现代而又老旧的城市。</p><p>城市的主要场景是下城和中城，下城借鉴了赛博朋克题材中常常出现的东方城市，霓虹灯与间隔紧密的建筑，游戏里称作”贫民窟”，足以见其处于世界的底层。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663484195866-954f5087-c340-4fb9-a971-6fbb68e9dfcb.jpeg" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484749813-6575dfc9-d132-4caf-afad-19c6eccf30cc.png" alt="img"></p><p>中城的灯光更加绚丽，有着热闹的商店街和夜店等。但是居民都处于卫兵的监控之下。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484475803-642494d6-8cb0-4ff4-a1d2-a66aebce764d.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484905228-ff0ddebf-be1d-4860-9736-1fef264767e0.png" alt="img"></p><p>实际上，下城在上面的人眼里，就是倾倒垃圾的垃圾场。整个城市都被一个叫”Neco”的公司掌控着。上下城区之间的机器人隔着巨大的阶级差距。</p><p>下城通往中城的电梯被破坏了，城市的天空也不是真正的天空，其实整个城市都被包围在高耸的巨大围墙和星空帷幕之下。</p><p>可以，这很赛博朋克。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663484592202-d5a67c05-c74d-4314-8641-96ce5a806601.png" alt="img"></p><h1 id="二、赛博朋克风格城市-老重庆记忆"><a href="#二、赛博朋克风格城市-老重庆记忆" class="headerlink" title="二、赛博朋克风格城市 老重庆记忆"></a>二、赛博朋克风格城市 老重庆记忆</h1><h3 id="赛博朋克城市的原型参考-有哪些老重庆的味道"><a href="#赛博朋克城市的原型参考-有哪些老重庆的味道" class="headerlink" title="赛博朋克城市的原型参考 有哪些老重庆的味道"></a>赛博朋克城市的原型参考 有哪些老重庆的味道</h3><p>现在的主流说法一般认为赛博朋克中东方建筑风格的城市取材于上个世纪90年代香港的九龙城寨，特别是分布紧密的居民楼、空调外机、防盗网、门帘等等。</p><p>这不禁让我想起了老重庆，这个到处都要爬坡上坎的城市。</p><p>那个时候还没有多少家里有空调，每个夏天都是和电风扇、凉板还有蚊子作伴。</p><p>因为没有电梯，那时的居民楼都不会太高。但是经常有从中间修一条路出来的情况，将一栋楼分成了上下两层。这种结构也让重庆的楼宇之间纷繁复杂，道路众多。</p><p><img src="/2022/09/18/04-stray-cat-assassin-and-old-chongqing/1663488644786-26fe7f4c-e1b7-4e56-8bb9-a1b6edbd1418.png" alt="img"></p><h3 id="现实的九龙城寨被强制拆除-而重庆的高楼大厦拔地而起"><a href="#现实的九龙城寨被强制拆除-而重庆的高楼大厦拔地而起" class="headerlink" title="现实的九龙城寨被强制拆除 而重庆的高楼大厦拔地而起"></a>现实的九龙城寨被强制拆除 而重庆的高楼大厦拔地而起</h3><p>前不久我回了一趟最老重庆的渝中区，从李子坝一路上到佛图关。那些关于老重庆的味道，有的已经改造成了文创旅游的景点，到处是打卡的网红。有的则还保留着人们生活的烟火气息，时间在这里似乎是缓慢的流逝。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663486865324-2ac6ef0d-b39d-4243-84d0-884e47000e2a.jpeg" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/129693/1663486384677-8a3f75a7-9a59-4707-bb01-447a82112938.jpeg" alt="img"></p><h1 id="三、猫猫程序员-修复一个大bug"><a href="#三、猫猫程序员-修复一个大bug" class="headerlink" title="三、猫猫程序员 修复一个大bug"></a>三、猫猫程序员 修复一个大bug</h1><h3 id="原来我们扮演的是一个修复bug的程序员"><a href="#原来我们扮演的是一个修复bug的程序员" class="headerlink" title="原来我们扮演的是一个修复bug的程序员"></a>原来我们扮演的是一个修复bug的程序员</h3><p>回到游戏主线，在逛下城和中城的过程中，我们扮演的小橘也大概明白了自己需要干什么。</p><p>在路途中结识的几位<strong>机器人NPC</strong><sup><strong>3</strong></sup>的指引下，我们要和<strong>B-12</strong><sup><strong>4</strong></sup>一起去到上城，找到通往外界的方法，让这座机器人城市重见天日。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663488765686-ede59b44-2df5-4622-90d9-9f16bc299294.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663488881940-3fbae4e1-b781-438d-80fe-90736df836e7.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663488657007-2ed0be7b-ac3a-48ca-9b9c-27560089447d.png" alt="img"></p><h3 id="看不见的地方-城市下水道、垃圾处理场"><a href="#看不见的地方-城市下水道、垃圾处理场" class="headerlink" title="看不见的地方 城市下水道、垃圾处理场"></a>看不见的地方 城市下水道、垃圾处理场</h3><p>下水道一直是一个游戏当中能够很好表现游戏世界观的元素，这是外表光鲜亮丽的城市的另一面，它处在暗无天日的阴影之下。垃圾、脏污纳垢从来都不会自然而然的消失，下水道、垃圾场，是我们修复bug所必经的一环。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489249378-bedd7d98-b2a5-4f53-b9eb-f235f7307bf3.png" alt="img"></p><p>在下水道中，我们见到了导致城市停摆的始作俑者——“菌克”，一种原本研发来处理垃圾的细菌，却因为不可控变异为了吞噬一切的可怕怪物。机器人、下城的部分城区，都因它们而毁灭。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489259895-4cea1064-fd73-4738-a8e2-bcdd38261c2a.png" alt="img"></p><h3 id="猫客信条！飞檐走壁的矫健身手与外置大脑"><a href="#猫客信条！飞檐走壁的矫健身手与外置大脑" class="headerlink" title="猫客信条！飞檐走壁的矫健身手与外置大脑"></a>猫客信条！飞檐走壁的矫健身手与外置大脑</h3><p>B-12可以说是小橘的外置大脑，一直指挥着我们如何行动。从建筑高塔、下水道、垃圾场摆脱菌克的撕咬，到公寓、监狱潜行穿越”Neco”公司的守卫。这场冒险让我们与无人机B-12结下了深厚的友谊。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489274347-d09443b0-acca-4ee8-9971-e002dc1f85e9.png" alt="img"></p><h1 id="四、墙的外面是什么？猫の信条将去向何方"><a href="#四、墙的外面是什么？猫の信条将去向何方" class="headerlink" title="四、墙的外面是什么？猫の信条将去向何方"></a>四、墙的外面是什么？猫の信条将去向何方</h1><p>以下有剧透警告⚠️</p><h3 id="机器人困在了自己画地为牢的高墙之中"><a href="#机器人困在了自己画地为牢的高墙之中" class="headerlink" title="机器人困在了自己画地为牢的高墙之中"></a>机器人困在了自己画地为牢的高墙之中</h3><p>终于，我们到了”上城”，一个无比干净整洁的地方。这里可以透过巨大的落地窗俯瞰整个机器人城市。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489811226-afc8aa50-0e79-492d-a38a-cb6e27a3915c.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489816581-50775499-87b7-4995-82dd-7fb92eb768d5.png" alt="img"></p><p>我们也终于排查清楚了bug的原因：原先的人类为了躲避外面的灾难而建造了这座城市。在人类几乎灭亡后，机器人继续执行着人类的指令，将自己围困在这高墙之下。但小橘就是从外面掉进来的，说明其实外界早已安全。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489827343-8ae1d24c-4d94-46ac-b271-e58ca9e3471a.png" alt="img"></p><h3 id="但总有一些声音渴望着外界"><a href="#但总有一些声音渴望着外界" class="headerlink" title="但总有一些声音渴望着外界"></a>但总有一些声音渴望着外界</h3><p>B-12其实从一开始就在引导着猫猫来唤醒自己，因为B-12是一个将意识上传到了机器网络中的人类科学家。一路上我们结识了4个渴望去到外界的机器人，它们无畏可怕的菌克和强大的Neco势力，纵使牺牲自己也要帮助我们。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489854709-6a0a8ccd-441d-461e-8ab0-731f74d6a5f4.png" alt="img"></p><h3 id="从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条"><a href="#从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条" class="headerlink" title="从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条"></a>从入世到出世，在阳光最耀眼的时刻转身离开，我是小橘，这是我的猫客信条</h3><p>在最后的城市主机系统面前，B-12以格式化自己数据为代价，重写了系统，开启了城市上空紧闭着的黑色帷幕。阳光猛烈，万物显形，菌克被消灭，原本监视和追捕机器人的”Neco”守卫也被解除。终于，城市和机器人们重获新生。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489878618-a91a871a-d83f-42a7-95db-330555737199.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489884207-d4e42c0c-6856-4bd3-be97-8ff2fe65fca4.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489908203-24354761-3e72-4a9e-bcf3-47dcf054b464.png" alt="img"></p><p>与B-12告别后，小橘独自迈向了充满阳光与绿草的外界。回到自然中去，自由——或许才是它的归宿。</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489919271-d6c909b4-8431-459f-ac06-4fbfa7b75e34.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489925158-bb7b6de1-580d-486d-a301-96366ed8a2d7.png" alt="img"></p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/129693/1663489933333-a5393993-6626-4fe1-b7d1-9fbc81f18f8e.png" alt="img"></p><p>——stqin 9.18.2022</p><h1 id="附录-名词解释"><a href="#附录-名词解释" class="headerlink" title="附录 名词解释"></a>附录 名词解释</h1><p>1.<strong>《stray》</strong>：是一款以猫为主角的第三人称冒险游戏。故事发生在一座日渐衰败的赛博城市，这里有着刻画细致的霓虹闪烁的小巷，以及脏乱阴暗的下层环境。在冒险途中，这只猫结识了一台编号为 B-12 的小型无人机。在这个新同伴的帮助下，一猫一机努力寻找出路。探索这个只有平凡的机器人和危险生物的冷漠之地，并设法解开这里的谜团。</p><p>2.<strong>赛博朋克</strong>：英文cyberpunk的音译。通常指代一种虚构的近未来数字网络时代，画面里通常有很多各种颜色的霓虹灯与间隔紧密的高楼大厦。是一种反乌托邦的科幻题材。</p><p>3.<strong>机器人NPC</strong>：这里指本游戏中的四位帮助小橘猫的机器人：Momo、Doc、Zbaltazar、Clementine，是城市中少数想去到外界的机器人。</p><p>4.<strong>B-12</strong>：和小橘猫一起冒险的无人机，真实身份是一个上传了意识的人类科学家。最后为了能重写城市控制系统，格式化了自己的记忆，在结尾CG处似乎又回到了网络中。</p>]]></content>
     
     
     <summary type="html">猫猫队立大功。</summary>
     
     
     
-    <category term="攻略心得" scheme="http://tailent.github.io/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
+    <category term="攻略心得" scheme="https://jysg-software.pages.dev/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
     
     
-    <category term="游戏" scheme="http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
   <entry>
     <title>《亿万僵尸》——掌控血压与LGD模拟器</title>
-    <link href="http://tailent.github.io/2022/09/11/03-they-are-billions-blood-and-lgd/"/>
-    <id>http://tailent.github.io/2022/09/11/03-they-are-billions-blood-and-lgd/</id>
+    <link href="https://jysg-software.pages.dev/2022/09/11/03-they-are-billions-blood-and-lgd/"/>
+    <id>https://jysg-software.pages.dev/2022/09/11/03-they-are-billions-blood-and-lgd/</id>
     <published>2022-09-11T08:20:00.000Z</published>
     <updated>2024-07-15T14:07:03.178Z</updated>
     
@@ -219,17 +219,17 @@
     
     
     
-    <category term="攻略心得" scheme="http://tailent.github.io/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
+    <category term="攻略心得" scheme="https://jysg-software.pages.dev/categories/%E6%94%BB%E7%95%A5%E5%BF%83%E5%BE%97/"/>
     
     
-    <category term="游戏" scheme="http://tailent.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://jysg-software.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
   <entry>
     <title>如何免费创建个人博客？</title>
-    <link href="http://tailent.github.io/2022/07/23/02-how-to-create-free-blog/"/>
-    <id>http://tailent.github.io/2022/07/23/02-how-to-create-free-blog/</id>
+    <link href="https://jysg-software.pages.dev/2022/07/23/02-how-to-create-free-blog/"/>
+    <id>https://jysg-software.pages.dev/2022/07/23/02-how-to-create-free-blog/</id>
     <published>2022-07-23T11:00:00.000Z</published>
     <updated>2024-07-15T14:41:55.255Z</updated>
     
@@ -240,17 +240,17 @@
     
     
     
-    <category term="blog" scheme="http://tailent.github.io/categories/blog/"/>
+    <category term="blog" scheme="https://jysg-software.pages.dev/categories/blog/"/>
     
     
-    <category term="个人博客" scheme="http://tailent.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="个人博客" scheme="https://jysg-software.pages.dev/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>你好，世界</title>
-    <link href="http://tailent.github.io/2022/07/06/01-hello-world/"/>
-    <id>http://tailent.github.io/2022/07/06/01-hello-world/</id>
+    <link href="https://jysg-software.pages.dev/2022/07/06/01-hello-world/"/>
+    <id>https://jysg-software.pages.dev/2022/07/06/01-hello-world/</id>
     <published>2022-07-06T11:00:00.000Z</published>
     <updated>2024-07-09T14:19:57.374Z</updated>
     
@@ -262,7 +262,7 @@
     
     
     
-    <category term="个人博客" scheme="http://tailent.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="个人博客" scheme="https://jysg-software.pages.dev/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
